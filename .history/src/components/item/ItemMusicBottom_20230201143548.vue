@@ -1,0 +1,22 @@
+<template>
+  <div class="itemMusicBottom">
+    <div class="top">
+                  <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-xiangyoujiantou"></use>
+          </svg>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "ItemMusicBottom",
+  props: ["musicList"],
+  setup(props) {
+
+  },
+};
+</script>
+
+<style lang="less" scoped>
+</style>
